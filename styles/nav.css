@@ -1,0 +1,63 @@
+.navbar-wrapper {
+    height: 35px;
+    background-color: black;
+    color: #cbcbcb;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 435px 10px;
+    margin: -10px -30px 5px -10px;   
+}
+
+.navbar-wrapper .nav-link {
+    width: 170px;
+    text-align: center;
+}
+
+.navbar-wrapper > .nav-link a {
+    font-family: "open sans", sans-serif;
+    color:#cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.navbar-wrapper > .nav-link a:hover {
+    color: #f8ec3c;
+    letter-spacing: 2px;
+}
+
+.navbar-wrapper .github-icon {
+    font-size: 2em;
+}
+
+.navbar-wrapper .github-icon a {
+     color: #cbcbcb;
+     transition: 0.5s;
+     padding: 5px;
+}
+
+.navbar-wrapper .github-icon a:hover {
+    color: #f8ec3c
+}
+
+.navbar-wrapper .linkedin-icon {
+    font-size: 2em;
+}
+
+.navbar-wrapper .linkedin-icon a {
+     color: #cbcbcb;
+     transition: 0.5s;
+     padding: 5px;
+}
+
+.navbar-wrapper .linkedin-icon a:hover {
+    color: #f8ec3c
+}
+
+.nav-bar-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+

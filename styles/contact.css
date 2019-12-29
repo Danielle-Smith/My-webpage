@@ -1,0 +1,38 @@
+.contact_info_body {
+    height: 904px;
+    font-family: "open sans", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.info_wrapper {
+    background-color: rgb(36, 35, 35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 245px;
+    padding: 50px 30px;
+    border-radius: 2px;
+    margin-top: 150px;
+}
+
+h7 {
+    color: white;
+    font-size: 3.8em;
+}
+
+.icons {
+    display: flex;
+
+}
+.info_wrapper .contact_github_icon i{
+    color: #f8ec3c;
+    font-size: 4em;
+    margin: 15px;
+}
+
+.info_wrapper .contact_linkedin_icon i{
+    color: #f8ec3c;
+    font-size: 4em;
+    margin: 15px;
+}

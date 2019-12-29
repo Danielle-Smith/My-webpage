@@ -1,0 +1,93 @@
+@media (max-width: 615px) {
+    .navbar-wrapper {
+        flex-direction: column;
+        height: 100%;
+        padding: 20px;
+        margin: 0px auto;
+    }
+
+    .navbar-wrapper .nav-link {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 1.5em;
+        width: 100%;
+    }   
+
+    .github-icon {
+        margin: 7px;
+    }
+
+    .body-section {
+        background-image: none;
+        flex-direction: column;
+        margin: 25px auto;
+        padding: 0px;
+    }
+
+    .main_heading h1 {
+        font-size: 4.5em;
+        height: 87px;
+        width: 405px;
+    }
+
+    .main_heading h2 {
+        font-size: 4.5em;
+        height: 87px;
+        width: 280px;
+    }
+
+    .web-developer-heading {
+        font-size: 1.2em;
+        width: 216px;
+    }
+
+    .paragraph p{
+        height: 300px;
+    }
+
+    .body-wrapper {
+        align-items: center;
+        padding: 20px 0px;
+        background-image: none;
+        width: 100%;
+        margin: 0px auto;
+    }
+
+    h5 {
+        font-size: 3.5em;
+        width: 390px;
+        height: 190px;
+        text-align: center;
+    }
+
+    h4 {
+        margin: 5px;
+    }
+
+    h7 {
+        font-size: 2em;    
+    }
+}
+
+@media (max-width: 1480px) {
+    .body-section {
+        background-image: none;
+    }    
+
+    .navbar-wrapper {
+        padding: 20px 100px 10px;
+    }
+
+    .body-section {
+        padding: 100px 0px 0px;
+    }
+
+    h5 {
+        font-size: 3em;
+        padding: 15px 35px 0px;
+    }
+    
+    h7 {
+        font-size: 3.7em;
+    }
+}

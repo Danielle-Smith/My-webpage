@@ -1,0 +1,78 @@
+body{
+    overflow-x: hidden;
+}
+
+.body-section {
+    background-image: url(../images/me2.jpg);
+    height: 864px;
+    margin: -25px;
+    padding: 100px 250px 0px 250px;
+    background-repeat: no-repeat;
+    background-position: right;
+    font-family: "open sans", sans-serif;
+}
+
+.main_heading {
+    display: flex;
+    flex-direction: column;   
+}
+
+h1 {
+    background: #2D2D2D;
+    color: #f8ec3c;
+    height: 150px;
+    width: 625px;
+    font-size: 8em;
+    padding: 0px 0px 30px 35px;
+    margin: 0px 0px 25px 0px;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+h2 {
+    font-family: "open sans", sans-serif;
+    font-size: 8em;
+    background: #2D2D2D;
+    color: #f8ec3c;
+    height: 150px;
+    width: 425px;
+    padding: 0px 0px 30px 35px;
+    margin: 0px 0px 25px 0px;
+    border-radius: 2px;
+}
+
+.web-developer-heading {
+    background-color: #cbcbcb;
+    color: #2D2D2D;
+    width: 220px;
+    font-size: 1.2em;
+    height: 34px;
+    padding: 3px 40px;
+    letter-spacing: 0.18em;
+    border-radius: 2px;
+}
+
+h3 {
+    margin: 0px;
+}
+
+
+.paragraph {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+}
+
+
+p {
+    color: white;
+    background-color: rgb(36, 35, 35);
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    text-align: center;
+    height: 195px;
+    width: 510px;
+    padding: 40px 65px;
+    border-radius: 2px;   
+}
+
